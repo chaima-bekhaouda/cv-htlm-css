@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap');
+
+:root {
+  --couleur-principale: #72788D;
+  --couleur-secondaire: #E3D7FF;
+  --couleur-tertiaire: #AFA2FF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--couleur-principale);
+    font-family: Kalam, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+header {
+    background-color: var(--couleur-principale);
+    color: black;
+    padding: 20px;
+    .header {
+        background: linear-gradient(to bottom, var(--couleur-secondaire) , var(--couleur-tertiaire));
+        color: black;
+        padding: 20px;
+      }
+}
+
+.header {
+    background-color: var(--couleur-principale);
+    color: black;
+}
+.objectif{
+  margin-top: 10px;
+  height: 200px;
+  width: 800px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--couleur-tertiaire);
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.Experiences{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Experiences h1{
+  border-bottom: 2px solid var(--couleur-tertiaire);
+}
+
+.goodtime{
+  margin-top: 10px;
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  background-color: var(--couleur-secondaire);
+}
+
+.hetm{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  flex-direction: column;
+  background-color: var(--couleur-tertiaire);
+}
+
+.olly{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--couleur-secondaire);
+}
+
+.laplateforme{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--couleur-tertiaire);
+}
+
+.langue{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--couleur-secondaire);
+}
+
+.bac{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--couleur-tertiaire);
+}
+
+.Compétences{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.logo{
+  height: 200px;
+  width: 800px;
+  background-color: var(--couleur-secondaire);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Contact{
+  height: 200px;
+  width: 800px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--couleur-tertiaire);
+}
+
+footer{
+  margin-top: 40px;
+  width: 100%;
+  background-color: black;
+  color: var(--couleur-tertiaire);
+}
